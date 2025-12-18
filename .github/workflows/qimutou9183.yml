@@ -3,7 +3,7 @@ name: qimutou9183
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 4/6 * * *'
+    - cron: '3 5/6 * * *'
 
 jobs:
   build:
@@ -12,10 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: qimutou9183
         env:
-          zqp50: ${{ secrets.zqp50 }}
+          vq877: ${{ secrets.vq877 }}
         run: |
-          echo $zqp50 | jq -r .ul48923 | /bin/bash
-          echo $bu24219 | jq -r .c178 | /bin/bash
-          echo $imnk5 | jq -r .wzi7 | /bin/bash
-          echo $ioi168 | jq -r .htnmp85 | /bin/bash
+          echo $vq877 | jq -r .f23402 | /bin/bash
+          echo $jx14240 | jq -r .dzxey35548 | /bin/bash
+          echo $bjc87041 | jq -r .i94555 | /bin/bash
+          echo $ueshl64592 | jq -r .lp8 | /bin/bash
+          echo $g86809 | jq -r .srxy555 | /bin/bash
 
